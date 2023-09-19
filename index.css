@@ -1,0 +1,184 @@
+
+/* Resetting Default Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles for Marvel Edition */
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/bg-5.jpg);
+    background-size: cover;
+    font-family: 'Impact', serif;
+    background-color: #000;
+    color: #FFF;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E62429; /* Red color - Marvel Red */
+    padding: 10px 20px;
+}
+
+.navbar img {
+    height: 50px;
+    margin-left: -60px;
+    margin-top: 5px;
+}
+
+/* Main Heading Styles */
+#main-heading {
+    text-align: center; /* Center the text */
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Impact', serif;
+}
+
+/* Favorites Button Styles */
+#favourites {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Impact', serif;
+    color: #E62429; /* Red color - Marvel Red */
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+#favourites:hover {
+    color: #FFF;
+}
+
+/* Search Key Styles */
+#search-key {
+    margin-left: 30px;
+    height: 25px;
+    width: 243px;
+    padding: 5px 15px;
+    border: 3px solid #E62429; /* Red color - Marvel Red */
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+      
+/*********************************    NavBar-Section   **********************************/
+    
+/* Navbar Styles for Marvel Edition */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E62429; /* Red color */
+    padding: 10px 20px;
+}
+
+/* Main Heading Styles */
+#main-heading {
+    margin-left: 30px;
+    color: #FFD100; /* Gold color */
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Impact', serif;
+}
+
+/* Favorites Button Styles */
+#favourites {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Impact', serif;
+    color: #FFD100; /* Gold color */
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+#favourites:hover {
+    color: #E62429; /* Red color */
+}
+
+/* Search Key Styles */
+#search-key {
+    margin-left: 30px;
+    height: 25px;
+    width: 243px;
+    padding: 5px 15px;
+    border: 3px solid #E62429; /* Red color */
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}}
+
+    /********************************* Superhero Lists **********************************/
+
+/* General Styles */
+body {
+    font-family: 'Impact', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Adjust the background color as needed */
+    color: white;
+}
+
+/* Flex Container for Lists */
+#display ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    width: 95vw;
+    overflow-x: auto; /* Horizontal scrollbar */
+}
+
+/* Individual List Item Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.container button {
+    border: 0;
+    background: none;
+    color: lightsalmon;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+/* Scrollbar Styles (Hide Scrollbar) */
+#superhero-list {
+    height: 81vh;
+    width: fit-content;
+    overflow-y: auto; /* Vertical scrollbar */
+}
+
+#superhero-list::-webkit-scrollbar {
+    width: 0.5em;
+    display: none; /* Hide scrollbar */
+}
+
+#superhero-list::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+}

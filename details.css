@@ -1,0 +1,122 @@
+/* Resetting Default Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles for Marvel-Inspired Look */
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg-6-1.jpg);
+    background-size: cover;
+    font-family: 'Comic Sans MS', cursive;
+    /* Use a comic-style font */
+    background-color: #000;
+    /* Fallback background color */
+    color: white;
+}
+
+/********************************* NavBar Section **********************************/
+
+.nav-section {
+    display: flex;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    background-color: #E62429;
+    /* Red color - Marvel Red */
+    height: fit-content;
+}
+
+.nav-section img {
+    height: 50px;
+    margin-left: 30px;
+    /* Adjust margin */
+    margin-top: 5px;
+}
+
+#main-heading {
+    margin-left: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Comic Sans MS', cursive;
+    /* Use a comic-style font */
+}
+
+#home_button {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: 0;
+}
+
+#home_button:hover {
+    cursor: pointer;
+    color: yellow;
+    /* Change color on hover */
+}
+
+/********************************* Main-Container(Superhero Details) **********************************/
+
+#main-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+#main-container h4 {
+    width: fit-content;
+    font-size: 40px;
+    color: yellow;
+    /* Change to yellow color */
+}
+
+.link {
+    font-family: 'Comic Sans MS', cursive;
+    /* Use a comic-style font */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#favourites {
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: 0;
+}
+
+#favourites:hover {
+    cursor: pointer;
+    color: yellow;
+    /* Change color on hover */
+}
+
+/********************************* Mark As Favourite Button **********************************/
+
+#heart {
+    margin-left: 30px;
+    /* Adjust margin */
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: 0;
+}
+
+#heart:hover {
+    color: yellow;
+    /* Change color on hover */
+    cursor: pointer;
+}
