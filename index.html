@@ -6,30 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Set the title of the web page -->
     <title>Superhero Hunter | Marvel</title>
+
+    <!-- Link to an external CSS file (index.css) for styling -->
     <link rel="stylesheet" href="index.css">
+
+    <!-- Define the web page icon (favicon) -->
     <link rel="icon" type="image/x-icon" href="./assets/marvel-logo.jpg">
+
+    <!-- Link to Google Fonts for custom font styles (Impact) -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Impact">
 
 </head>
 
 <body>
+    <!-- Create a navigation bar -->
     <div class="navbar">
-        <input type="text" name="searchKey" id="search-key" placeholder="Hunt Your Superhero . ." />
+        <!-- Input field for searching superheroes -->
+        <input type="text" name="searchKey" id="search-key" placeholder="Hunt Your Superhero . .">
+
+        <!-- Logo and main heading of the web page -->
         <div>
             <img src="./assets/marvel-logo.jpg">
             <h1 id="main-heading">Superhero Characters</h1>
         </div>
+
+        <!-- Button to navigate to the "Favourites" page in a new tab -->
         <a href="favourites.html" target="_blank"><button id="favourites">Favourites</button></a>
     </div>
 
+    <!-- Create a container for displaying superhero characters -->
     <div id="display">
         <ol id="superhero-list">
-
+            <!-- Superhero characters will be dynamically added here -->
         </ol>
     </div>
 
-
+    <!-- Include an external JavaScript file (index.js) -->
     <script src="index.js"></script>
 
 </body>
